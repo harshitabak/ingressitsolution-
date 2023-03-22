@@ -85,7 +85,7 @@ let getLocalData = ()=>{
                 className="addItems">
             <input
                 type="text"
-                placeholder=" Add Item"
+                placeholder="Add Item"
                 className="form-control"
                 value={inputdata}
                 onChange={(event) => setInputData(event.target.value)}
